@@ -29,7 +29,7 @@ var sortedNames = myOtherNames.sort();
 console.log(sortedNames);
 
 // Concat Array
-var concattedNames = myNamesArray.concat(myOtherNames)
+var concattedNames = myNamesArray.concat(myOtherNames);
 console.log(concattedNames);
 
 // Slice Array
@@ -40,6 +40,8 @@ console.log(slicedArray);
 // Join Array
 var joinedNames = myOtherNames.join(" ");
 console.log(joinedNames);
+
+console.log(myNamesArray);
 
 
 
