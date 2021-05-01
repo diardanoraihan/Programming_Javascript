@@ -29,5 +29,3 @@ function squareAndMultiply(num1, num2){
 }
 
 console.log(squareAndMultiply(4, 4)); // 640
-
-// ========================== Example 2 ============================
