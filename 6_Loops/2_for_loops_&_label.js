@@ -1,11 +1,3 @@
-/*
-Loops   : Quixk and easy way to do something repeatedly
-
-Many types of loops but all do basically the same thing:
-repeat something (i.e. an action) a set number of times 
-(could even be 0).
-*/
-
 // For Loops
 // Repeat until a specified conditions evaluates to false.
 /*
@@ -19,6 +11,8 @@ for (var i = 0 ; i<10 ; i++){
     console.log("Hello", i)
 }
 
+console.log("-----------------------");
+
 // Example-2: With function 
 const iceCreams = ["vanilla", "chocolate", "strawberry"]
 
@@ -29,6 +23,8 @@ const iceCreamLooper = (arr) => {
 }
 
 iceCreamLooper(iceCreams);
+
+console.log("-----------------------");
 
 // Example-3: More Complex Case
 for ( let i = 1 ; i <= 100 ; i++){
@@ -46,6 +42,8 @@ for ( let i = 1 ; i <= 100 ; i++){
         console.log(i);
     }
 }
+
+console.log("-----------------------");
 
 // Example-4: Label and Nested Loop
 /*
@@ -71,6 +69,8 @@ for (let i = 0 ; i < 10 ; i++){
         }
     }
 }
+
+console.log("-----------------------");
 
 // Example-5: Capture a value and Callback on that value
 for (let i = 0 ;  i<10 ; i++){
