@@ -1,9 +1,9 @@
 # Document Object Model (DOM)
 
-The intended purpose of Javascript is to manipulate webpages, hence we use DOM for that. Without the DOM, we cannot interact with tags in HTML. 
+The intended purpose of Javascript is to manipulate webpages, hence we use DOM for that. Without the DOM, we cannot interact with tags in HTML. __Think of this as an API that we can use__.
 
 ## Definition:
-"The DOM provides a representation of the document as a structured group of nodes and objects that have properties and methods."
+"The DOM provides a representation of the document as a structured group of nodes and objects that have properties and methods." - _Mozilla Developer Network_
 
 ## Description:
 * Programming interface for HTML and XML documents.
